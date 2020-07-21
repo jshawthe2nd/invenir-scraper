@@ -1,7 +1,7 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 include 'phpQuery/pquery.php';
 
-class Scrape
+class Scraper
 {
 	private $tmp_image_urls = array();
 	var $images = array();
